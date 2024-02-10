@@ -3,7 +3,7 @@ export const Profile = ({ name, tag, location, image, stats
   return (
     <div>
       <div>
-        <img src={image} alt="User avatar" />
+        <img src={image} alt="User avatar" width="100" />
         <p>{name}</p>
         <p>@{tag}</p>
         <p>{location}</p>
