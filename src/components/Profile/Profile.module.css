@@ -1,0 +1,68 @@
+.imageProfile {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+  border-radius: 50%;
+  background-color: rgb(42, 42, 42);
+}
+
+.border {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 223px;
+  margin-left: 50px;
+  margin-top: 10px;
+  border: solid 1px rgb(42, 42, 42);
+}
+
+.name {
+  margin-top: 12px;
+  font-weight: 800;
+  font-size: 24px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.borderChildren {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tag {
+  margin-top: 12px;
+  color: rgb(100, 100, 100);
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.location {
+  margin-top: 8px;
+  color: rgb(100, 100, 100);
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.list {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.listChildren {
+  background-color: rgba(83, 83, 83, 0.466);
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: solid 1px rgb(100, 100, 100);
+}
+
+.stats {
+  margin-top: 8px;
+  font-weight: 600;
+}

@@ -1,0 +1,14 @@
+.card-friends {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.friends-name {
+  margin-top: 8px;
+  font-size: 16px;
+}
+.status {
+  margin-top: 6px;
+  font-size: 12px;
+}

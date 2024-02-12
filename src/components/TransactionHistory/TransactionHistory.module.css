@@ -1,0 +1,32 @@
+.table {
+  margin-top: 20px;
+  margin-left: 20px;
+  border-collapse: collapse;
+  padding: 0 40px;
+}
+.table tbody tr:nth-child(even) {
+    background-color: rgb(168, 168, 168); 
+}
+.title {
+  color: #fff;
+  background-color: rgb(44, 44, 44);
+}
+.titleName {
+  text-align: left;
+  font-weight: bold; 
+  margin: 0;
+  padding: 4px 34px;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 6px 30px;
+  text-align: left;
+  width: 150px;
+}
+tr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
